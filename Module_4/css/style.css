@@ -1,0 +1,167 @@
+body{
+	background: url(../img/image_2.jpg) no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+
+}
+
+h2 {
+	font-family: 'Pathway Gothic One', sans-serif;
+	color: #263555;
+	font-size: 32px;
+}
+
+img{
+	width: 358px;
+	height: 260px;
+	float: left;
+	margin-right: 21px;
+	margin-bottom: 20px;
+}
+
+
+#qwert {
+	width: 1040px;
+	height: 1296px;
+	padding: 35px;
+	background-color: #ffffff;
+	box-sizing: border-box;
+	border: 2px solid #f7f9fd;
+	border-radius: 3px;
+	box-shadow: 0 0 20px rgba(0,0,0,0.5);
+	padding-bottom: 0;
+	overflow: hidden;
+	margin: 100px auto;
+}
+h3{
+	font-family: 'Arial', sans-serif;
+	font-size: 15px;
+	line-height: 19px;
+	color: #263555;
+}
+p{
+	font-family: 'Arial', sans-serif;
+	font-size: 13px;
+	line-height: 19px;
+	color: #4e5050;
+}
+
+ol {
+	counter-reset: item;
+}
+
+#offer>li{
+	list-style: none;
+	margin-bottom: 20px;
+	font-size: 13px;
+	font-family: 'Arial', sans-serif;
+	color: #4e5050
+}
+
+#offer>li:before {
+	content: counter(item);
+	counter-increment: item;
+	color: white;
+	background: #38afe5;
+	border-radius: 20px;
+	border: 1px solid #689fb7;
+	display: inline-block;
+	text-align: center;
+	margin: 4px -40px;
+	line-height: 26px;
+	width: 26px;
+	height: 26px;
+	float: left;
+}
+
+.qwe {
+	font-family: 'Arial', sans-serif;
+	font-size: 15px;
+	color: #263555;
+	margin-bottom: 10px;
+}
+
+ul>li {
+	color: #263555;
+	list-style-image: url(../img/image_3.png);
+}
+
+.left {
+	float: left;
+	list-style: none;
+	padding-left: 20px;
+}
+
+.right {
+	float: left;
+	list-style: none;
+	padding-left: 48px;
+	vertical-align: top;
+	margin-left: 41px;
+}
+
+.left>li {
+	margin-bottom: 22px; 
+}
+
+.right>li {
+	margin-bottom: 22px;
+}
+
+.left1 {
+	padding-top: 50px;
+	padding-left: 20px;
+	width: 630px;
+	height: 580px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.right1 {
+	padding-top: 50px;
+	width: 258px;
+	height: 580px;
+	display: inline-block;
+	margin-left: 48px;
+}
+
+.left2 {
+	padding-top: 50px;
+	padding-left: 20px;
+	width: 630px;
+	height: 580px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.right2 {
+	padding-top: 50px;
+	width: 258px;
+	height: 580px;
+	display: inline-block;
+	margin-left: 48px;
+}
+
+.ticket {
+	background: url(../img/image_4.png) no-repeat;
+	width: 210px;
+	height: 220px;
+	padding: 22px;
+	box-sizing: border-box;
+}
+
+.mark{
+	text-align: center;
+	margin-right: 45px;
+}
+
+.director{
+	text-align: center;
+	margin-right: 45px;
+}
+
+
+
+
+
