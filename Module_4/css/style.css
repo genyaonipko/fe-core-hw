@@ -14,7 +14,7 @@ h2 {
 
 img{
 	width: 358px;
-	height: 260px;
+	display: block;
 	float: left;
 	margin-right: 21px;
 	margin-bottom: 20px;
@@ -145,6 +145,7 @@ ul>li {
 
 .ticket {
 	background: url(../img/image_4.png) no-repeat;
+	background-size: contain;
 	width: 210px;
 	height: 220px;
 	padding: 22px;
