@@ -127,12 +127,21 @@ header {
 	list-style: none;
 	padding: 10px 5px;
 	text-align: center;
-	background: url(../img/image_5.png) no-repeat;
 	height: 75px;
 	background-size: cover;
 	overflow: hidden;
 	width: 58px;
 	border-radius: 5px;
+	background-color: #fff;
+
+}
+.submenu::before {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 100px 100px 100px;
+    border-color: transparent transparent #6980fe transparent;
 }
 
 .topmenu-item:hover> .submenu{
@@ -281,6 +290,14 @@ h2 {
 	position: relative;
 	display: inline-block;
 	margin-right: 15px;
+
+}
+
+.box-last {
+	width: 287px;
+	height: 270px;
+	position: relative;
+	display: inline-block;
 }
 
 .box-1 {
@@ -297,6 +314,10 @@ h2 {
 	display: block;
 }
 
+.box-last:hover>.box-1 {
+	display: block;
+}
+
 h3 {
 	color: #e0e4e7;
 	font-size: 30px;
@@ -305,6 +326,7 @@ h3 {
 	font-weight: lighter;
 	text-align: center; 
 	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 p{
