@@ -42,7 +42,8 @@ header {
 }
 
 
-#qwert {
+#wrapper {
+	position: relative;
 	width: 1026px;
 	height: 1172px;
 	padding: 61px;
@@ -123,7 +124,6 @@ header {
 
 .submenu {
 	display: none;
-	
 	width: 58px;
 	height: 75px;
 	padding: 10px 5px;
