@@ -9,7 +9,7 @@ header {
 	width: 1040px;
 	margin: 0 auto;
 	margin-top: 50px;
-	margin-bottom: 800px;
+	margin-bottom: 200px;
 }
 
 .left1 {
@@ -176,7 +176,7 @@ header {
 	border-radius: 50%;
 }
 
-.left1 {
+.wrapper-1 {
 	position: relative;
 	box-sizing: border-box;
 	height: 579px;
@@ -362,17 +362,12 @@ p{
 	border-radius: 5px;
 }
 
-.right2 {
-	position: relative;
-	height: 90px;
-}
-
 
 
 .button-circle {
 	position: fixed;
-	bottom: 2%;
-	right: 2%;
+	bottom: 22%;
+	right: 24%;
 	width: 30px;
 	height: 30px;
 	border-radius: 50%;
