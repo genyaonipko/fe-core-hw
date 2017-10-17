@@ -173,18 +173,22 @@ header {
 }
 
 .wrapper-1 {
-	position: relative;
+	position: absolute;
 	box-sizing: border-box;
 	width: 903px;
-	height: 52%;
+	/*height: 52%;*/
 }
-
 .wrapper-2 {
-	position: relative;
+	position: absolute;
+	top: 55%;
+	box-sizing: border-box;
+	width: 903px;
 }
-
 .wrapper-3 {
-	position: relative;
+	position: absolute;
+	top: 68%;
+	box-sizing: border-box;
+	width: 903px;
 }
 
 .aside-1 {
@@ -217,6 +221,7 @@ header {
 .button {
 	position: absolute;
 	bottom: 40px;
+	top: 420px;
 	left: 36px;
 	height: 88px;
 	width: 88px;
@@ -293,7 +298,6 @@ h2 {
 	position: relative;
 	display: inline-block;
 	width: 287px;
-	height: 100%;
 	margin-right: 14px;
 }
 
@@ -303,8 +307,8 @@ h2 {
 	top: 0;
 	display: none;
 	width: 143px;
-	height: 100%;
 	background-color: #193149;
+	overflow: visible;
 }
 
 .box-last {
@@ -325,17 +329,19 @@ h2 {
 h3 {
 	margin: 0;
 	margin-top: 20px;
+	margin-bottom: 20px;
 	color: #e0e4e7;
 	font-size: 30px;
 	font-family: 'Open Sans', 'Arial', sans-serif;
 	font-weight: lighter;
 	text-align: center; 
-	margin-bottom: 20px;
 	
 }
 
-p{
+span {
+	display: block;
 	padding: 0 10px;
+	margin-bottom: 20px;
 	font-size: 10px;
 	color: #cbc6c6;
 	text-align: justify;
@@ -347,9 +353,10 @@ p{
 .butt {
 	position: absolute;
 	right: 8%;
-	bottom: 7%;
+	top: 75%;
 	width: 62px;
 	height: 20px;
+	margin-top: 20px;
 	text-align: center;
 	font-family: 'Arial', 'Tahoma', sans-serif;
 	font-size: 12px;
