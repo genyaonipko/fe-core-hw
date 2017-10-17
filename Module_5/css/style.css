@@ -19,26 +19,22 @@ header {
 .mainimage-1 {
 	position: absolute;
 	width: 903px;
-	height: 579px;
 	
 }
 
 .mainimage-2 {
 	position: absolute;
 	width: 903px;
-	height: 579px;
 }
 
 .mainimage-3 {
 	position: absolute;
 	width: 903px;
-	height: 579px;
 }
 
 .mainimage-4 {
 	position: absolute;
 	width: 903px;
-	height: 579px;
 }
 
 
@@ -179,8 +175,16 @@ header {
 .wrapper-1 {
 	position: relative;
 	box-sizing: border-box;
-	height: 579px;
 	width: 903px;
+	height: 52%;
+}
+
+.wrapper-2 {
+	position: relative;
+}
+
+.wrapper-3 {
+	position: relative;
 }
 
 .aside-1 {
@@ -273,26 +277,23 @@ h2 {
 
 .img-1 {
 	width: 287px;
-	height: 270px;
 	margin-right: 15px;
 }
 
 .img-2 {
 	width: 287px;
-	height: 270px;
 	margin-right: 15px;
 }
 
 .img-3 {
 	width: 288px;
-	height: 270px;
 }
 
 .box {
 	position: relative;
 	display: inline-block;
 	width: 287px;
-	height: 270px;
+	height: 100%;
 	margin-right: 14px;
 }
 
@@ -302,7 +303,7 @@ h2 {
 	top: 0;
 	display: none;
 	width: 143px;
-	height: 270px;
+	height: 100%;
 	background-color: #193149;
 }
 
@@ -310,7 +311,6 @@ h2 {
 	position: relative;
 	display: inline-block;
 	width: 287px;
-	height: 270px;
 	margin-right: 0
 }
 
