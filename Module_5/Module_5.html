@@ -13,10 +13,16 @@
   <link href="https://fonts.googleapis.com/css?family=Pathway+Gothic+One" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Dorsa" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"> </script>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">
 </head>
 <body>
-  <header>
-    <div class="menu">
+  <header class="header">
       <ul class="topmenu">
         <li class="topmenu-item">
           <a href="#">HOME</a>
@@ -45,27 +51,42 @@
           <a href="#">CONTACTS</a>
         </li>
       </ul>
-    </div>
-    <div id="wrapper">
+    </header>
+  <div class="wrapper">
+    
       <div class="wrapper-1">
-        <img class="mainimage-1" src="img/image_11.jpg" alt="Error">
-        <img class="mainimage-2" src="img/image_10.jpg" alt="Error">
-        <img class="mainimage-3" src="img/image_9.jpg" alt="Error">
-        <img class="mainimage-4" src="img/image_1.jpg" alt="Error">
-        <div class="aside-1">THERE ARE PLENTY OF PLACES</div>
-        <div class="aside-2">THAT ARE WORTH SEEING</div>
+        <div class="slider" id="slider">
+          <div class="slider-item" id="slider-item-1">
+            <img class="mainimage-4" src="img/image_1.jpg" alt="Error">
+            <div class="aside-1">THERE ARE PLENTY OF PLACES</div>
+            <div class="aside-2">THAT ARE WORTH SEEING</div>
+          </div>
+          <div class="slider-item" id="slider-item-2">
+            <img class="mainimage-2" src="img/image_10.jpg" alt="Error">
+            <div class="aside-1">THERE ARE PLENTY OF PLACES</div>
+            <div class="aside-2">THAT ARE WORTH SEEING</div>
+          </div>
+          <div class="slider-item" id="slider-item-3">
+            <img class="mainimage-3" src="img/image_9.jpg" alt="Error">
+            <div class="aside-1">THERE ARE PLENTY OF PLACES</div>
+            <div class="aside-2">THAT ARE WORTH SEEING</div>
+          </div>
+          <div class="slider-item" id="slider-item-4">
+            <img class="mainimage-1" src="img/image_11.jpg" alt="Error">
+            <div class="aside-1">THERE ARE PLENTY OF PLACES</div>
+            <div class="aside-2">THAT ARE WORTH SEEING</div>
+          </div>
+        </div>
         <div class="button">
-          <a class="button-1" href="#">
+          <a class="button-1" href="#" id="prevArrow">
           </a>
-          <a class="button-2" href="#">
+          <a class="button-2" href="#" id="nextArrow">
           </a>
         </div>
-      </div>
+    </div>
       <div class="wrapper-2">
-      <h2>TOP DESTINATIONS</h2>
-      </div>
-      <div class="wrapper-3">
-        <div class="box">
+        <h2>TOP DESTINATIONS</h2>
+        <div class="box start">
           <img class="img-1" src="img/image_4.jpg" alt="Error">
           <div class="box-1">
             <h3>VENICE</h3>
@@ -76,7 +97,7 @@
             <a class="butt" href="#">Details</a>
           </div>
         </div>
-         <div class="box">
+        <div class="box">
           <img class="img-2" src="img/image_6.jpg" alt="Error">
           <div class="box-1">
             <h3>VENICE</h3>
@@ -87,7 +108,7 @@
             <a class="butt" href="#">Details</a>
           </div>
         </div>
-         <div class="box-last">
+        <div class="box last">
           <img class="img-3" src="img/image_7.jpg" alt="Error">
           <div class="box-1">
             <h3>VENICE</h3>
@@ -99,8 +120,15 @@
           </div>
         </div>
       </div>
-        <a class="button-circle" href="#"></a>
-    </div>
-  </header>
+      <a class="button-circle" href="#"></a>
+  </div>
+  <script>
+   $(document).ready(function(){
+      $('#slider').slick({
+                          autoplay: false,
+                          nextArrow: '#nextArrow',
+                          prevArrow: '#prevArrow'});
+   });
+  </script>
 </body>
 </html>
