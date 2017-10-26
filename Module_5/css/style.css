@@ -287,10 +287,10 @@ h2 {
 	position: absolute;
 	right: 51%;
 	top: 0;
-	display: none;
+	visibility: hidden;
 	width: 143px;
 	background-color: #193149;
-	overflow: visible;
+	transition: all 2s ease-out;
 }
 
 .box.start {
@@ -304,7 +304,8 @@ h2 {
 }
 
 .box:hover>.box-1 {
-	display: block;
+	visibility: visible;
+	transform: rotate(180deg);
 }
 
 .box-last:hover>.box-1 {
