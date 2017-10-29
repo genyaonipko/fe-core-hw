@@ -425,7 +425,7 @@ input {
 	margin-right: 20px;
 }
 
-.text-area-1>span>h4 {
+.text-area-1>.span>h4 {
 	font-size: 15px;
 	color: #263555;
 	margin-bottom: 15px;
@@ -437,12 +437,12 @@ input {
 	color: #000;
 }
 
-.text-area-1>span>p>a{
+.text-area-1>.span>p>a{
 	color: red;
 	text-decoration: none;
 }
 
-.text-area-1>span>p {
+.text-area-1>.span>p {
 	font-size: 10px;
 	color: #4e5050;
 	line-height: 15px;
