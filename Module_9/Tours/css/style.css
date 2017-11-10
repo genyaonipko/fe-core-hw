@@ -423,6 +423,15 @@ textarea::placeholder {
 		width: 100%;
 	}
 
+	.wrapper-tours {
+		display: flex;
+		flex-wrap: nowrap;
+	}
+
+	select {
+		width: 198px;
+	}
+
 	.text-2 {
 		width: 255px;
 	}
