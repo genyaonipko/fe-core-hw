@@ -1,0 +1,116 @@
+mixin picture(oneItem, secondItem, thirdItem)
+	picture
+		source(srcset="" + oneItem + " , " + secondItem + " 2x")
+		img(src=oneItem, alt=thirdItem)
+
+doctype html
+html(lang="zxx")
+	head
+		meta(charset="utf-8")
+		meta(name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1")
+		meta(http-equiv="X-UA-Compatible" content="ie=edge")
+		title Module 11
+		link(href="https://fonts.googleapis.com/css?family=Pathway+Gothic+One" rel="stylesheet")
+		link(href="https://fonts.googleapis.com/css?family=Dorsa" rel="stylesheet")
+		link(href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet")
+		link(rel="stylesheet" href="css/style.css")
+	body
+		header
+			div.topmenu
+				a.topmenu-label(href="#") JOURNEY
+				ul.topmenu-head
+					li.topmenu-head__item
+						a(href="#") HOME
+					li.topmenu-head__item
+						a(href="#") ABOUT
+						ul.topmenu-head__submenu
+							li.topmenu-head__submenu--item
+								a(href="#") AGENCY
+							li.topmenu-head__submenu--item
+								a(href="#") NEWS
+							li.topmenu-head__submenu--item
+								a(href="#") TEAM
+					li.topmenu-head__item--left
+						a(href="#") GALLERY
+					li.topmenu-head__item--right
+						a(href="#") TOURS
+					li.topmenu-head__item
+						a(href="#") BLOG
+					li.topmenu-head__item
+						a(href="#") CONTACTS
+		div.main
+			div#wrapper
+				h2 OUR GALLERY
+				div.father
+					div.img1
+						+picture("img/img1.jpg", "img2x/img1.jpg", "error")
+						div.img-1
+							img.plus(src="img/plus.svg" alt="plus")
+					div.img1
+						+picture("img/img2.jpg", "img2x/img2.jpg", "error")
+						div.img-1
+							img.plus(src="img/plus.svg" alt="plus")
+					div.img1
+						+picture("img/img3.jpg", "img2x/img3.jpg", "error")
+						div.img-1
+							img.plus(src="img/plus.svg" alt="plus")
+					div.img1
+						+picture("img/img4.jpg", "img2x/img4.jpg", "error")
+						div.img-1
+							img.plus(src="img/plus.svg" alt="plus")
+					div.img1
+						+picture("img/img5.jpg", "img2x/img5.jpg", "error")
+						div.img-1
+							img.plus(src="img/plus.svg" alt="plus")
+					div.img1
+						+picture("img/img6.jpg", "img2x/img6.jpg", "error")
+						div.img-1
+							img.plus(src="img/plus.svg" alt="plus")
+					div.img1
+						+picture("img/img7.jpg", "img2x/img7.jpg", "error")
+						div.img-1
+							img.plus(src="img/plus.svg" alt="plus")
+					div.img1
+						+picture("img/img8.jpg", "img2x/img8.jpg", "error")
+						div.img-1
+							img.plus(src="img/plus.svg" alt="plus")
+					div.img1
+						+picture("img/img9.jpg", "img2x/img9.jpg", "error")
+						div.img-1
+							img.plus(src="img/plus.svg" alt="plus")
+		div.footer-father
+			div.footer-father__item
+				div.footer-father__item--first
+					div.footer-father__item--first--stage
+						p FAQS PAGE
+						br
+						p PEOPLE SAY
+					div.footer-father__item--first--stage
+						p USEFUL LINKS
+						br
+						p PARTNERS
+					div.footer-father__item--first--stage
+						p INSURANCE
+						br
+						p FAMILY TRAVEL
+				div.footer-father__item--last
+					p.footer-father__item--text CONTACT US:
+					p  &#9990; TEL: 1-800-234-5678
+					p &#128232; info@demolink.org
+		div.navigation
+			a.twitter(href="https://twitter.com/" target="_blank")
+			a.facebook(href="https://www.facebook.com/" target="_blank")
+			a.google(href="https://www.google.ru/" target="_blank")
+			a.in(href="https://www.linkedin.com//" target="_blank")
+		div.text-bottom
+			p Journey &#169; 2013 | Privacy Policy | Website designed by TemplateMonster.com
+
+
+
+
+
+
+
+
+
+
